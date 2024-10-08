@@ -6,5 +6,5 @@
 ваше рішення ще працює.
 """
 words = ["line", "test", "column"]
-index = 2
-
+index = 0
+print(words[index])
