@@ -17,3 +17,5 @@ print.
 """
 
 mac = "AAAA:BBBB:CCCC"
+binary_mac = ''.join(format(int(octet, 16), '08b') for octet in mac.split(':'))
+print(binary_mac)
